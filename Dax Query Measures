@@ -1,0 +1,26 @@
+🧮 DAX Measures & Calculations
+
+Custom DAX measures created for this project include:
+
+1. AverageDuration = AVERAGE('Air_Traffic_Analysis'[Duration_Time])
+
+2. FormattedAverageDuration = 
+        VAR TotalMinutes = [AverageDuration]
+        VAR Hours = INT(TotalMinutes / 60)
+        VAR Minutes = MOD(TotalMinutes, 60)
+        RETURN
+        FORMAT(Hours, "0") & "h" & FORMAT(Minutes, "00") & "m"
+
+3. FDelayCount = 
+        CALCULATE(
+            COUNTROWS('Air_Traffic_Analysis'),
+            VALUE('Air_Traffic_Analysis'[Flight Delay (hrs)]) > 0
+        )
+
+4. MonShort = FORMAT('Air_Traffic_Analysis'[Flight_Date], "mmm")
+
+5. MonthNo = MONTH('Air_Traffic_Analysis'[Flight_Date])
+
+6. Target = MIN('Air_Traffic_Analysis'[Rating]) * 3.5
+
+7. Label Place Holder = 0
