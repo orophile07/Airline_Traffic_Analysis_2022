@@ -1,64 +1,83 @@
-✈️ Airline Traffic Analysis – India 2022
+✈️ Airline Traffic Analysis – India 2022 
 
-📊 Project Overview
+
+📊 Project Overview:
+
 This project presents an in-depth analysis of Airline Traffic Data for various Indian airlines in the year 2022. The dataset used is a real-time dataset sourced from Kaggle, containing 2906 rows of flight-level information. The objective is to derive actionable insights into flight operations, pricing, delays, and customer satisfaction — using Power BI and Excel as primary tools.
 
-🎯 Objective
-The primary objective of this project is to:
 
-Analyze flight patterns, pricing strategies, and performance metrics of Indian airlines in 2022.
+🎯 Objectives:
 
-Identify key operational bottlenecks such as frequent delays and low-rated services.
+1. The primary objective of this project is to:
 
-Provide data-driven insights to support airline management in optimizing scheduling, pricing, and customer satisfaction.
+2. Analyze flight patterns, pricing strategies, and performance metrics of Indian airlines in 2022.
 
-🏢 Business Problem Addressed
-Airline operators often face challenges such as:
+3. Identify key operational bottlenecks such as frequent delays and low-rated services.
 
-High variability in flight delays and durations.
+4. Provide data-driven insights to support airline management in optimizing scheduling, pricing, and customer satisfaction.
 
-Unoptimized pricing strategies leading to reduced competitiveness.
 
-Poor customer experience resulting in low ratings.
+🏢 Business Problem Addressed:
 
-This analysis addresses these challenges by:
+1. Airline operators often face challenges such as.
 
-Revealing total revenue generated per month wise and also average ticket price.
+2. High variability in flight delays and durations.
 
-Evaluating the relationship between pricing and cabin class.
+3. Unoptimized pricing strategies leading to reduced competitiveness.
 
-Analyzing customer ratings to uncover gaps in service quality.
+4. Poor customer experience resulting in low ratings.
 
-🧰 Tools & Technologies Used
-Power BI – for building interactive dashboards and data visualizations.
+5. This analysis addresses these challenges by:
 
-Excel – for initial data cleaning and exploration.
+6. Revealing total revenue generated per month wise and also average ticket price.
 
-DAX (Data Analysis Expressions) – to create custom measures, KPIs, and time-based calculations.
+7. Evaluating the relationship between pricing and cabin class.
 
-📊 Power BI Insights & Visualizations
-The interactive Power BI dashboard includes:
+8. Analyzing customer ratings to uncover gaps in service quality.
 
-Price comparison across cabin classes and airlines.
 
-Origin-Destination route mapping to visualize flight frequency.
+🧰 Tools & Technologies Used:
 
-Monthly trends in traffic and delays.
+1. Power BI – for building interactive dashboards and data visualizations.
 
-📈 Key Business Insights
-Airlines with higher delays tend to have lower customer ratings.
+2. Excel – for initial data cleaning and exploration.
 
-Premium cabin classes are priced up to 2.5x more than economy but don’t always correlate with higher ratings but tends to give the most revenue.
+3. DAX (Data Analysis Expressions) – to create custom measures, KPIs, and time-based calculations.
 
-Some carriers consistently maintain on-time performance with above-average customer satisfaction.
 
-📌 Conclusion
-This project serves as a comprehensive airline performance monitoring tool that can help:
+📊 Power BI Insights & Visualizations:
 
-Airline executives optimize routes and pricing
+1. The interactive Power BI dashboard includes:
 
-Marketing teams identify customer pain points
+2. Price comparison across cabin classes and airlines.
 
-Operations managers improve scheduling and delay mitigation
+3. Origin-Destination route mapping to visualize flight frequency.
+
+4. Monthly trends in traffic and delays.
+
+
+📈 Key Business Insights:
+
+1. Airlines with higher delays tend to have lower customer ratings.
+
+2. Premium cabin classes are priced up to 2.5x more than economy but don’t always correlate with higher ratings but tends to give the most revenue.
+
+3. Some carriers consistently maintain on-time performance with above-average customer satisfaction.
+
+🧮 What more can be added:
+
+1. Top-performing and underperforming routes based on ratings.
+
+2. Revealing popular origin-destination pairs and flight frequency.
+
+📌 Conclusion:
+
+1. This project serves as a comprehensive airline performance monitoring tool that can help:
+
+2. Airline executives optimize routes and pricing
+
+3. Marketing teams identify customer pain points
+
+4. Operations managers improve scheduling and delay mitigation
 
 📣 Feel free to explore the dashboard, suggest improvements, or fork the repo!
